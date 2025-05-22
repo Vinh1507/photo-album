@@ -29,7 +29,7 @@ const HikingPhotoAlbum = () => {
       <div className="album-wrapper">
         <MasonryPhotoAlbum
           photos={photos}
-          columns={3}
+          columns={4}
           spacing={4}
           padding={5}
           onClick={({ index }) => setIndex(index)}
