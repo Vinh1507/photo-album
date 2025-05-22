@@ -1,0 +1,40 @@
+html{
+  /* background-image: url('/src/media/landscape_photography_tips_featured_image_1024x1024.webp');  */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: repeat;
+}
+
+.App h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+
+.react-photo-album--photo {
+  position: relative !important;
+  overflow: hidden !important;
+  transition: all 0.3s cubic-bezier(.4,2,.3,1) !important;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.32), 0 1.5px 8px 0 rgba(0,0,0,0.18) !important;
+  background: #fff !important;
+  border: none !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.react-photo-album--photo:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 20px 48px 0 rgba(0,0,0,0.38), 0 3px 16px 0 rgba(0,0,0,0.22) !important;
+  z-index: 2 !important;
+}
+
+/* Ensure full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+
